@@ -1,0 +1,120 @@
+body {
+  background-color: black;
+  font-family: 'Poppins', sans-serif;
+  color: rgba(255, 255, 255, 0.9);
+  letter-spacing: 1px;
+}
+
+h1 {
+  opacity: 0.9;
+  font-weight: 400;
+  line-height: 50px;
+}
+
+h2, h3, p {
+  font-weight: 200;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.container {
+  padding: 30px;
+  margin: 30px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.button {
+  background-color: #82696D;
+  width: 400px;
+  margin: 0 auto;
+  padding: 10px;
+  text-decoration: none;
+}
+
+.button a {
+  text-decoration: none;
+  color: rgb(255, 255, 255, 0.7);
+}
+
+.button a:hover {
+  color: #BA979C;
+}
+
+.icon {
+  font-size: 50px;
+}
+
+.list-inline li {
+  padding: 20px;
+  display: inline-block;
+}
+
+
+.light-shadow {
+  box-shadow: 0px 1px 2px 0px rgba(255, 255, 255, 0.3);
+}
+
+.card-grey {
+  background-color: #30302F;
+  padding: 30px;
+  margin: 30px auto;
+  border-radius: 10px;
+}
+
+.card-grey h2 {
+  font-weight: 400;
+}
+
+.round-opq-pic {
+  opacity: 0.7;
+  border-radius: 50%;
+}
+
+.social-links a {
+  text-decoration: none;
+  color: #B0AEA5;
+}
+
+.social-links a:hover {
+  color: #BA979C;
+}
+
+.row {
+  text-align: left;
+}
+
+.bright-pic-sq {
+  opacity: 1;
+  border-radius: 2%;
+}
+
+.left-grey-text {
+  padding: 10px;
+}
+
+.pink-border {
+  border: 0.5rem outset pink;
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
+
+
