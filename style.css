@@ -1,3 +1,25 @@
+#sidebar {
+  position: fixed;
+  background-color: #8DA5AD;
+  width: 100px;
+  margin: 0px;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  text-align: center;
+  border-radius: 2px;
+}
+
+.icon-sml {
+  font-size: 40px;
+  color: #60605d;
+  display: inline-block;
+}
+
+.icon-sml:hover {
+  color: #41616d;
+}
+
 body {
   background-color: black;
   font-family: 'Poppins', sans-serif;
@@ -21,7 +43,10 @@ ul {
 
 .container {
   padding: 30px;
-  margin: 30px;
+  padding-top: 0px;
+  margin: 0px;
+  margin-left: 130px;
+  margin-right: 50px;
 }
 
 .text-center {
@@ -29,8 +54,9 @@ ul {
 }
 
 .button {
-  background-color: #82696D;
-  width: 400px;
+  background-color: #7ba4b2;
+  border-radius: 8px;
+  width: 300px;
   margin: 0 auto;
   padding: 10px;
   text-decoration: none;
@@ -42,12 +68,17 @@ ul {
 }
 
 .button a:hover {
-  color: #BA979C;
+  color: #30302F;
 }
 
 .icon {
   font-size: 50px;
 }
+
+.list-nopadding {
+  padding: 0;
+}
+
 
 .list-inline li {
   padding: 20px;
@@ -81,7 +112,7 @@ ul {
 }
 
 .social-links a:hover {
-  color: #BA979C;
+  color: #82A3B0;
 }
 
 .row {
@@ -98,7 +129,7 @@ ul {
 }
 
 .pink-border {
-  border: 0.5rem outset pink;
+  border: 0.5rem outset lightblue;
 }
 
 @media (max-width: 960px) {
